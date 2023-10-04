@@ -6,14 +6,14 @@ let num2 = parseInt(prompt("Please enter the second number:"));
 
 // Compare the numbers
 if (num1 > num2) {
-    document.write(num1 + " is larger than " + num2);
+    document.write(num1);
 }
 
 else if (num2 > num1) {
-    document.write(num2 + " is larger than " + num1);
+    document.write(num2);
 }
 
 // If the numbers are equal
 else {
-    document.write("The numbers are equal");
+    document.write("The numbers are equal.");
 }
